@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Banane Ki Machine</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<body>
+    <div class="text">
+        <h1>Kaisa laga sir 🥺👉👈</h1>
+    </div>
+    <div class="container">
+        Product<input type="text" size="40" id="productId" placeholder="Not Bhupendar Jogi">
+        <label for="imageInput">Choose an image:</label><input type="file" id="imageInput">
+        Price<input type="text" size="40" id="productPrice" placeholder="Price of the product">
+        <button id="btn" onclick="clickKiya()">Add All</button>
+    </div>
+    <div id="ResultContainer">
+        <table>
+            <thead>
+                <tr>
+                    <th id="column1">ProductId</th>
+                    <th id="column2">ProductImage</th>
+                    <th id="column3">ProductPrice</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Yahape Rows add honge -->
+            </tbody>
+        </table>
+        <!-- AddAll dabane ke baad yaha pe add hoga -->
+    </div>
+</body>
+</html>
